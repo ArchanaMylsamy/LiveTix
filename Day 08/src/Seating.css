@@ -1,0 +1,35 @@
+.App {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .seat {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: #eaeaea;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+  }
+  
+  .selected {
+    background-color: #90ee90;
+  }
+  
+  #seat-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #total-price {
+    margin-top: 20px;
+  }
+  
+  #price-amount {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
