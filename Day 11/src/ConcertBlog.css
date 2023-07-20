@@ -1,0 +1,143 @@
+/* ConcertBlog.css */
+.bgblog{
+    background-image:url(https://static.vecteezy.com/system/resources/previews/000/597/898/original/shape-abstract-background-vector-background.jpg);
+    background-size:cover;
+}
+.concert-blog {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family:'Times-New-Roman';
+   
+  }
+  
+  .concert-blog h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight:bold;
+    animation: fadeInOut 2s ease-in-out infinite;
+    color: purple;
+  }
+  
+  .blog-post {
+    margin-bottom: 40px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 50px black;
+  }
+  
+  .blog-post h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .meta-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .meta-info span:first-child {
+    margin-right: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .blog-post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  @media (max-width: 600px) {
+    .concert-blog {
+      max-width: 100%;
+      padding: 10px;
+    }
+  
+    .blog-post {
+      padding: 10px;
+    }
+  
+    .blog-post h2 {
+      font-size: 20px;
+    }
+  
+    .meta-info {
+      font-size: 12px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  }/* ConcertBlog.css */
+
+/* ... Existing CSS styles ... */
+
+.animate__animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    
+  }
+  
+  .animate__fadeIn {
+    animation-name: fadeIn;
+  }
+  
+  .animate__fadeInUp {
+    animation-name: fadeInUp;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 20px, 0);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+ /* ConcertBlog.css */
+
+/* ... Existing CSS styles ... */
+
+.polaroid-image {
+  width: 200px; /* Adjust the width to your desired size */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+}
