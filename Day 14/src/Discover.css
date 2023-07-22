@@ -1,0 +1,49 @@
+/* ShowManagementPage.css */
+.discoverings{
+    background-image:url(https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height:1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.discoverings h1{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.show-management-page {
+    text-align: center;
+    padding: 20px;
+  }
+.buttonfordiscover{
+    margin-left:42%;
+    padding-top: 8%;
+}
+
+.buttonadd{
+    background-image:linear-gradient(rgb(250, 250, 255),rgb(238, 36, 70)) ;
+    width:200px;
+    height:50px;
+    border-radius: 25px;
+   
+   
+}  
+.buttonget{
+    background-image:linear-gradient(rgb(244, 244, 248),rgb(235, 31, 65)) ;
+    width:200px;
+    height:50px;
+    border-radius: 25px;
+    
+}  
+.buttonupdate{
+    background-image:linear-gradient(rgb(245, 245, 246),rgb(233, 58, 87)) ;
+    width:200px;
+    height:50px;
+    border-radius: 25px;
+    
+}  
+.buttondelete{
+    background-image:linear-gradient(rgb(240, 240, 243),rgb(243, 44, 77)) ;
+    width:200px;
+    height:50px;
+    border-radius: 25px;
+}  
