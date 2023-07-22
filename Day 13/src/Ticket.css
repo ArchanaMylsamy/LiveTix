@@ -1,0 +1,21 @@
+.headtick{
+   color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+@keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Apply the animation to the images */
+  .imagetickets {
+    animation: fadeInAnimation 1s ease-in-out;
+  }
+  .ticketbg1234{
+    background-image:linear-gradient(rgb(30, 26, 29),purple);
+  }
