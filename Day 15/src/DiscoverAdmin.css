@@ -1,0 +1,49 @@
+/* ShowManagementPage.css */
+.discoverings{
+    background-image:url(https://img.freepik.com/premium-vector/speed-lights-background_23-2148609119.jpg);
+    height:1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.discoverings h1{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.show-management-page {
+    text-align: center;
+    padding: 20px;
+  }
+.buttonfordiscover{
+    margin-left:42%;
+    padding-top: 8%;
+}
+
+.buttonadd{
+    background-image:linear-gradient(rgb(86, 86, 229),rgb(238, 36, 70)) ;
+    width:200px;
+    height:50px;
+    border-radius: 25px;
+    
+   
+}  
+.buttonget{
+    background-image:linear-gradient(rgb(86, 86, 232),rgb(235, 31, 65)) ;
+    width:200px;
+    height:50px;
+    border-radius: 25px;
+    
+}  
+.buttonupdate{
+    background-image:linear-gradient(rgb(83, 83, 244),rgb(233, 58, 87)) ;
+    width:200px;
+    height:50px;
+    border-radius: 25px;
+    
+}  
+.buttondelete{
+    background-image:linear-gradient(rgb(76, 76, 215),rgb(243, 44, 77)) ;
+    width:200px;
+    height:50px;
+    border-radius: 25px;
+}  

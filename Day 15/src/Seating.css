@@ -1,0 +1,115 @@
+/* MovieSeatBooking.css */
+
+.movie-seat-booking {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.seat-layout {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seat-row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.seat {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.seat.available {
+  background-color: #eee;
+}
+
+.seat.unavailable {
+  background-color: #f00;
+  cursor: not-allowed;
+}
+
+.seat.selected {
+  background-color: rgb(4, 159, 4);
+}
+
+.selected-seats {
+  margin-top: 30px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #045b02;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* New styles for center alignment and colors */
+.movie-seat-booking {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seat-layout {
+  margin-top: 20px;
+}
+
+.seat-row {
+  margin-bottom: 10px;
+}
+
+.seat {
+  margin-right: 10px;
+}
+
+.selected-seats {
+  margin-top: 30px;
+}
+
+/* Additional styles for centering and colors */
+h1 {
+  text-align: center;
+}
+
+.selected-seats, .total-amount {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.total-amount {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #007bff;
+}
+.seatdharu{
+  text-align: center;
+  background-image: url(https://th.bing.com/th/id/OIP.070bgSn65uB0pBmEewfxRwHaDt?pid=ImgDet&rs=1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:800px;
+  padding-top:2%;
+  font-family: 'Times New Roman', Times, serif;
+}
