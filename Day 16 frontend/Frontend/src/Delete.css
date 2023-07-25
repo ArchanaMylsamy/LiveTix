@@ -1,0 +1,74 @@
+/* EventForm.css */
+.deleteba{
+    background-size: cover;
+    height:1000px;
+   
+    background-repeat: no-repeat;
+    background-image: url(https://img.freepik.com/free-vector/glowing-musical-pentagram-background-with-sound-notes_1017-31220.jpg?w=1380&t=st=1690112784~exp=1690113384~hmac=b21dc4439a5140b88f0aebc9af5fbe9a1c14337d2cf235227ec74813fe345c59);
+}
+.event-form-container {
+    max-width: 400px;
+    margin: 0px auto;
+    padding: 20px;
+    padding-top: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+
+  }
+  
+  .event-form-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .event-form-container form {
+    display: grid;
+    gap: 10px;
+  }
+ .puthusu .whhh{
+  color:white ;
+ }
+  .ipo{
+    color: white;
+  }
+  .event-form-container label {
+    font-weight: bold;
+    padding-left:40%;
+    color: #00070f;
+    padding-bottom: 20%;
+    font-size: 20px;
+  }
+  
+  .event-form-container input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .event-form-container .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+  .submitlaba{
+    color: #00070f;
+    padding-top:2%;
+    text-align:center;
+  }
+  .event-form-container button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #00070f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .event-form-container button:hover {
+    background-color: #e8ebef;
+    color: #00070f;
+  }
+  
