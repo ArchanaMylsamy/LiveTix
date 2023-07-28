@@ -1,0 +1,122 @@
+/* AddShowForm.css */
+.feedbackcrud{
+    background-image: url(https://img.freepik.com/free-photo/arrangement-with-different-feelings_23-2148857182.jpg?w=1060&t=st=1690180803~exp=1690181403~hmac=128e3ea4dc784a6edf6ecd94c530a60e51362fbf2341a906ee0c3b524b14d415);
+    height:1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+.farh1{
+    color: rgb(252, 251, 251);
+}
+.farid{
+    color:rgb(244, 240, 240);
+    padding-left: 37%;
+    padding-bottom:26%;
+    font-size: 20px;
+}
+#arshowId{
+    height:30px;
+}
+.farlead{
+    color:rgb(253, 248, 248);
+    padding-left: 35%;
+    padding-bottom:7%;
+    font-size: 20px;
+}
+#arshowLead{
+    height:30px;
+}
+.fartitle{
+    color:rgb(251, 244, 244);
+    padding-left: 35%;
+    padding-bottom:7%;
+    font-size: 20px;
+}
+#arshowTitle{
+    height:30px;
+}
+.fargenre{
+    color:rgb(254, 252, 252);
+    padding-left: 34%;
+    padding-top:5%;
+    font-size: 20px;
+}
+#arGenre{
+    height:30px;
+    width:70%;
+}
+.fartype{
+    color:rgb(249, 249, 249);
+    padding-left: 37%;
+    padding-top:12%;
+    font-size: 20px;
+}
+#arlive{
+    width:60%;
+}
+
+.farlive{
+    color:rgb(249, 248, 248);
+    padding-left: 45%;
+    padding-top:20%;
+    font-size: 20px;
+}
+.farvideo{
+    color:rgb(251, 249, 249);
+    padding-left: 50%;
+    padding-top:20%;
+    font-size: 20px;
+}
+.fardate{
+    color:rgb(250, 246, 246);
+    padding-left: 37%;
+    padding-top:30%;
+    font-size: 20px;
+}
+#ardate{
+    width:70%;
+    height:30px;
+}
+.fartimefrom{
+    color:rgb(252, 250, 250);
+    padding-left: 31%;
+    padding-top:40%;
+    font-size: 20px;
+}
+.fartimeto{
+    color:rgb(250, 250, 250);
+    padding-left: 33%;
+    padding-top:52%;
+    font-size: 20px;
+}
+#arfromTime{
+    width:70%;
+    height:30px;
+}
+#artoTime{
+    width:70%;
+    height:30px;
+}
+.farlocation{
+    color:rgb(251, 251, 251);
+    padding-left: 37%;
+    padding-top:49%;
+    font-size: 20px;
+}
+#arlocation{
+    width:70%;
+    height:30px;
+}
+.farsubmit{
+    background-color: black;
+    border-radius: 25px;
+}
+.farp{
+    color:black;
+    text-align: center;
+    font-size: 25px;
+    padding-top:0px;
+}
+
+  

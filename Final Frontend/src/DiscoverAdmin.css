@@ -1,0 +1,50 @@
+/* ShowManagementPage.css */
+.discoverings{
+    background-image:url(https://img.freepik.com/free-photo/orange-holi-colors-crowd_23-2148129354.jpg?w=1060&t=st=1690215612~exp=1690216212~hmac=b4fd4f3bacb011dfc9c10110c7e5c8f469034a76e8afe22858ab279fb09125fa);
+    height:750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.discoverings h1{
+    color:rgb(8, 8, 8);
+padding-top: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.show-management-page {
+    text-align: center;
+    padding: 20px;
+  }
+.buttonfordiscover{
+    margin-left:42%;
+    padding-top: 8%;
+}
+
+.buttonadd{
+    background-image:linear-gradient(rgb(192, 201, 21),rgb(93, 11, 24)) ;
+    width:200px;
+    height:50px;
+    border-radius: 25px;
+    
+   
+}  
+.buttonget{
+    background-image:linear-gradient(rgb(192, 201, 21),rgb(7, 0, 1)) ;
+    width:200px;
+    height:50px;
+    border-radius: 25px;
+    
+}  
+.buttonupdate{
+    background-image:linear-gradient(rgb(192, 201, 21),rgb(93, 11, 24)) ;
+    width:200px;
+    height:50px;
+    border-radius: 25px;
+    
+}  
+.buttondelete{
+    background-image:linear-gradient(rgb(192, 201, 21),rgb(7, 0, 1)) ;
+    width:200px;
+    height:50px;
+    border-radius: 25px;
+}  
